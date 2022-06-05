@@ -7,8 +7,11 @@
     tools:context=".ShowDataActivity">
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/friend_list_recycler_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="6dp"
-        android:padding="12dp" />
+        android:padding="12dp"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="6dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
